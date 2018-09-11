@@ -13,7 +13,9 @@ const restrictedKeyCall = () => {
         // For each key in an Array , funtion is called and the key is the argument
         quitKeys.forEach(key => {
             globalShortcut.register(key, () => {
-                console.log(key + ' pressed ' + '\n' + 'Shutting application down')
+                console.log(
+                    key + ' pressed ' + '\n' + 'Shutting application down'
+                )
 
                 app.quit()
             })
@@ -22,7 +24,6 @@ const restrictedKeyCall = () => {
         // Disableing keys
         disableKeys.forEach(key => {
             globalShortcut.register(key, () => {
-
                 console.log(key + ' pressed : This key has been disabled.')
             })
         })

@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        "node":true,
+        "node": true,
         "commonjs": true,
         "es6": true
     },
@@ -12,21 +12,9 @@
     },
     "rules": {
         "no-console": 0,
-        "indent": [
-            "error",
-            "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "never"
-        ]
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "never"]
     }
 }
