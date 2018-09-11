@@ -1,41 +1,32 @@
-const { app, BrowserWindow, globalShortcut } = require('electron');
+const { app, globalShortcut } = require('electron')
 
 //Imported JSON
-const keysJSON = require('./keys.json');
-
+const keysJSON = require('./keys.json')
 
 const restrictedKeyCall = () => {
-
     app.on('ready', () => {
-        // Reading arrays from JSON    
-        let quitKeys = keysJSON.keysQuit;
-        let disableKeys = keysJSON.keysDisable;
-        let reloadKeys = keysJSON.keysReload;
+        // Reading arrays from JSON
+        let quitKeys = keysJSON.keysQuit
+        let disableKeys = keysJSON.keysDisable
+        //let reloadKeys = keysJSON.keysReload;
 
         // For each key in an Array , funtion is called and the key is the argument
-        quitKeys.forEach((key) => {
+        quitKeys.forEach(key => {
             globalShortcut.register(key, () => {
-                console.log(key + " pressed " + "\n" + "Shutting application down");
+                console.log(key + ' pressed ' + '\n' + 'Shutting application down')
 
                 app.quit()
             })
-        }
+        })
 
-        );
-
-        // Disableing keys 
-        disableKeys.forEach((key) => {
-
+        // Disableing keys
+        disableKeys.forEach(key => {
             globalShortcut.register(key, () => {
-                let garbage = 0;
-                console.log(key + " pressed : This key has been disabled.");
+
+                console.log(key + ' pressed : This key has been disabled.')
             })
-        }
-
-        )
-
+        })
     })
-
 }
 
-module.exports = { restrictedKeyCall };
+module.exports = { restrictedKeyCall }

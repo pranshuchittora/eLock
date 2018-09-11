@@ -11,9 +11,7 @@
     "build-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=build/icons/win/icon.ico --prune=true --out=release-builds ",
     "build-mac": "electron-packager . --overwrite --asar=true --platform=darwin --arch=x64 --icon=build/icons/mac/icon.icns --prune=true --out=release-builds ",
     "build-linux": "electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --icon=build/icons/png/512x512.png --prune=true --out=release-builds",
-    "build-all":"npm run build-win && npm run build-max && npm run build-linux &&"
-  
-
+    "build-all": "npm run build-win && npm run build-max && npm run build-linux &&"
   },
   "repository": {
     "type": "git",
@@ -28,6 +26,7 @@
   "dependencies": {},
   "devDependencies": {
     "electron": "^2.0.5",
-    "electron-packager": "^12.1.0"
+    "electron-packager": "^12.1.0",
+    "eslint": "^5.5.0"
   }
 }

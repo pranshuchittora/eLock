@@ -1,23 +1,22 @@
-const {app, Menu} = require('electron')
+const { Menu } = require('electron')
 
-
-const setMainMenu = () =>{
+const setMainMenu = () => {
     const template = [
 
         {
             label: 'eLock',
             submenu: [
-              {role: 'reload'}
-             ]
-          },
+                { role: 'reload' }
+            ]
+        },
 
-    ];
+    ]
 
-    const menu = Menu.buildFromTemplate(template);
-    Menu.setApplicationMenu(menu);
+    const menu = Menu.buildFromTemplate(template)
+    Menu.setApplicationMenu(menu)
 
 }
 
 
 
-module.exports = {setMainMenu};
+module.exports = { setMainMenu }
