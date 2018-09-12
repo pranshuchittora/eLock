@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-body{
+body {
     background: rgb(233, 233, 233);
 }
-.app{
+.app {
     text-align: center;
-   margin-top: 30vh;
-   font-family: "Roboto", sans-serif;
-   font-size: 3rem;
-   color: rgb(53, 53, 53);
-  
+    margin-top: 30vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: rgb(53, 53, 53);
 }
