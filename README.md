@@ -56,7 +56,7 @@ npm run build-win  #For windows
 npm run build-mac  #For MacOS
 ```
 ```bash
-npm run build-lnux  #For Linux
+npm run build-linux  #For Linux
 ``````
 # Project Struture
     .
