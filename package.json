@@ -2,7 +2,7 @@
     "name": "elock",
     "productName": "eLock",
     "author": "Pranshu Chittora <pranshuchittora17@gmail.com>",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "An Online Examination tool @SRM-CARE",
     "main": "index.js",
     "scripts": {
