@@ -50,13 +50,13 @@ yarn start
 ```
 >## Packaging the app
 ```bash
-npm run build-win  #For windows
+npm run build:win  #For windows
 ```
 ```bash
-npm run build-mac  #For MacOS
+npm run build:mac  #For MacOS
 ```
 ```bash
-npm run build-linux  #For Linux
+npm run build:linux  #For Linux
 ``````
 # Project Struture
     .
