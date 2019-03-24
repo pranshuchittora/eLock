@@ -1,6 +1,8 @@
 
 # eLock
+<div align="center">
 <img align="center" src="./buildAssets/icon/icon.png"></img>
+</div>
 
 _eLock is an electron based app with certain restrictions which helps to prevent malpratices to a greater extent._
 
