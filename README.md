@@ -1,17 +1,12 @@
 
-<h1 align="center"> 
-eLock
-</h1>
-<p align="center"> 
-<img src="./buildAssets/icon/icon.png"/>
-</p>
+# eLock
+<img align="center" src="./buildAssets/icon/icon.png"></img>
 
- > eLock is an electron based app with certain restrictions which helps to prevent malpratices to a greater extent.
->
+_eLock is an electron based app with certain restrictions which helps to prevent malpratices to a greater extent._
 
-<h1 align="center"> 
-Features
-</h1>
+![shield-version](https://img.shields.io/badge/version-v1.1.0-orange.svg)
+
+## Features
 
 - Disabled Copy , Paste ...
 - On change of application , the examination app quits.
@@ -19,7 +14,7 @@ Features
 
 <br/><br/>
 
-# Getting Started
+## Getting Started
 
 > ## Cloning repository
 ```bash
@@ -58,7 +53,7 @@ npm run build:mac  #For MacOS
 ```bash
 npm run build:linux  #For Linux
 ``````
-# Project Struture
+## Project Struture
     .
     +-- appLogic                 # Main Logic of the app
     |   +-- keys.json
