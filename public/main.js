@@ -1,4 +1,4 @@
-let redirectURL = 'https://pranshuchittora.github.io/eLock/index.html'
+let redirectURL = 'https://pranshuchittora.github.io'
 const onLine_message = document.getElementById('connection_status')
 if (navigator.onLine) {
     onLine_message.innerHTML = 'You are Online'
